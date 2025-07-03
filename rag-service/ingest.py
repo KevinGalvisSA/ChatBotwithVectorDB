@@ -15,7 +15,7 @@ QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
 QDRANT_COLLECTION = os.getenv("QDRANT_COLLECTION")
 
 # 2. Cargar documento PDF
-loader = PyPDFLoader("data/constitucion_colombia.pdf")
+loader = PyPDFLoader("data/constitucion_practica.pdf")
 documents = loader.load()
 
 # 3. Dividir en chunks
