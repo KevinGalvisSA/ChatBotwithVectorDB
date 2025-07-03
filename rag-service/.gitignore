@@ -1,0 +1,30 @@
+# Entorno virtual
+venv/
+
+# Variables de entorno
+.env
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de log y temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configuraciones del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones de editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos de Qdrant en modo local
+qdrant_data/
