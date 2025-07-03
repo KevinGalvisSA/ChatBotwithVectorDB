@@ -28,3 +28,6 @@ Thumbs.db
 
 # Archivos de Qdrant en modo local
 qdrant_data/
+
+# Archivo extra
+key.txt
